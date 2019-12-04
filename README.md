@@ -34,14 +34,14 @@ BT.onDestroy();
 
 
 Methods :
-public boolean isBluetoothPresent()
-public boolean isBluetoothOn()
-public void closeAll()
-public void onDestroy()
-public String[] getPairedDevices()
-public void setDeviceByName(String deviceName)
-public void connect()
-public void write(String data)
-public boolean isDataRecieved()
-public String read(int buffersize)
-public OutputStream getOutputStream()
+public boolean isBluetoothPresent();
+public boolean isBluetoothOn();
+public void closeAll();
+public void onDestroy();
+public String[] getPairedDevices();
+public void setDeviceByName(String deviceName);
+public void connect();
+public void write(String data);
+public boolean isDataRecieved();
+public String read(int buffersize);
+public OutputStream getOutputStream();
