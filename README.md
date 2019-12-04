@@ -7,15 +7,15 @@ Coonection with Bluetooth Serial Module such as HC-05
 
 Use : 
 
-BSConnector BT=new BSConnector(); // create object
+                BSConnector BT=new BSConnector(); // create object
 
-BT.setDeviceByName("DEvice_Name"); //set the name of the device to connect
+                BT.setDeviceByName("DEvice_Name"); //set the name of the device to connect
 
-Thread r=new Thread(new Runnable() {
+                Thread r=new Thread(new Runnable() {
 
-                @Override
+                  @Override
                 
-                public void run() {
+                  public void run() {
                 
                     try {
                     
@@ -29,23 +29,25 @@ Thread r=new Thread(new Runnable() {
                         
                         BT.closeAll(); // close connection
                         
-                    }catch (Exception e)
+                        }
+                      
+                    catch (Exception e)
                     
-                    {
+                        {
+                    
+                        }
                     
                     }
-                    
-                }
                 
-            });
+                });
             
-            r.start();
+                r.start();
 
 
 
-//if BT is class variable then inside onDestroy must call
+            //if BT is class variable then inside onDestroy must call
 
-BT.onDestroy(); 
+            BT.onDestroy(); 
 
 
 
