@@ -39,7 +39,7 @@ Thread r=new Thread(new Runnable() {
                 
             });
             
-r.start();
+            r.start();
 
 
 
@@ -50,7 +50,9 @@ BT.onDestroy();
 
 
 
+
 Methods :
+
 
 public boolean isBluetoothPresent()
 
