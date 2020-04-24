@@ -3,13 +3,13 @@ Java class to Establish Bluetooth Serial Connection using RFCOMM socket (for And
 
 Coonection with Bluetooth Serial Module such as HC-05
 
-//if you are facing any problem contact on : aw454565@gmail.com
+//for any queries or suggestions drop an email on : aw454565@gmail.com
 
 Use : 
 
                 BSConnector BT=new BSConnector(); // create object
 
-                BT.setDeviceByName("DEvice_Name"); //set the name of the device to connect
+                BT.setDeviceByName("DEvice_Name"); //set the name of the device you want to connect to
 
                 Thread r=new Thread(new Runnable() {
 
