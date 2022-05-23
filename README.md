@@ -45,7 +45,7 @@ Use :
 
 
 
-            //if BT is class variable then inside onDestroy must call
+            //must destroy
 
             BT.onDestroy(); 
 
